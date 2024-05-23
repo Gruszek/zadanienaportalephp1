@@ -8,7 +8,7 @@
 <h2>Wynik Formularza</h2>
 
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "GET") {
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = htmlspecialchars($_GET['name']);
     $email = htmlspecialchars($_GET['email']);
 
